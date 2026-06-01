@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  base: '/docs-aircode/',
   title: 'AirCode 文档',
   description: 'AirCode 使用教程、CLI 配置、模型分组与常见问题',
   lang: 'zh-CN',
