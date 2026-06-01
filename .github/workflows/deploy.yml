@@ -44,7 +44,7 @@ jobs:
           enablement: true
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v6
+        uses: actions/upload-pages-artifact@v5
         with:
           path: doc.aircode.run/.vitepress/dist
 
