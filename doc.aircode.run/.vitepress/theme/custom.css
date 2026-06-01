@@ -1,0 +1,28 @@
+.vp-doc img {
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+}
+
+.vp-doc .aircode-page-title {
+  margin: 0 0 32px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--vp-c-divider);
+}
+
+.vp-doc img.aircode-broken-image {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 96px;
+  padding: 34px 16px;
+  object-fit: contain;
+  background:
+    linear-gradient(135deg, var(--vp-c-bg-soft), var(--vp-c-bg-alt));
+  color: var(--vp-c-text-2);
+  font-size: 14px;
+  text-align: center;
+}
+
+.vp-doc div[class*='language-'] pre {
+  -webkit-overflow-scrolling: touch;
+}
